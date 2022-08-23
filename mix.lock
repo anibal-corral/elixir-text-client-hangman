@@ -1,0 +1,4 @@
+%{
+  "dictionary": {:git, "https://github.com/anibal-corral/elixir-dictionary.git", "a56bb9a5a93150bdd451c21677ff2b7848194b3e", []},
+  "hangman": {:git, "https://github.com/anibal-corral/elixir-hangman.git", "68156bc91e4a00684b4749ed1f9aa84a93a5a924", []},
+}

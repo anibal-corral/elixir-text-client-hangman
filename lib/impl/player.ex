@@ -26,10 +26,11 @@ defmodule TextClient.Impl.Player do
     IO.puts current_word(tally)
     # get next guess
     guess = get_guess()
-    { updated_game, updated_tally } = Hangman.make_move(game, guess)
+    # { updated_game, updated_tally } = Hangman.make_move(game, guess)
+    tally = Hangman.make_move(game, guess)
     # make move
 
-    interact({ updated_game, updated_tally } )
+    interact({ game, tally } )
   end
 
 
